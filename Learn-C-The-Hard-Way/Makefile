@@ -17,6 +17,7 @@ CFLAGS =-Wall -g
 
 # Default target
 #all: $(TARGET)
+##
 all : ex1 ex3
 # Linking the object files to create the executable
 #$(TARGET): $(OBJ)
