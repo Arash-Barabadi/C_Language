@@ -9,7 +9,7 @@ int main() {
         // The for loop has 3 components in the parentheses:
         //  - The 1st part runs once when we enter the loop and initializes the variable.
         //  - The 2nd part is the condition of the loop.
-        //  - The 3rd part runs every the loop runs.
+        //  - The 3rd part runs every time the loop runs.
         printf("%d \n", i);
     }
 
