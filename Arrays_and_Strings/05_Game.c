@@ -13,7 +13,7 @@ Create a program that calculates and outputs the number of win for the given tea
 int main() {
     
     float results[] = {0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1};
-    //Let's introduce a counter, namely i, and, a variable which stores the results in itself which is z.
+    //Let's introduce a counter, namely i, and, a variable which stores the results in itself which is "wins".
     int numGames = sizeof(results);
     int wins = 0 ;
 
