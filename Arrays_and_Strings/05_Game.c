@@ -16,13 +16,12 @@ int main() {
     //Let's introduce a counter, namely i, and, a variable which stores the results in itself which is "wins".
     int numGames = sizeof(results);
     int wins = 0 ;
-
-    for(int i = 0; i< numGames ; i++) {
+    int i;
+    for(i=0 ; i< numGames ; i++) {
 
         if (results[i]==1) {
             wins++ ;
-        }
-        else {
+        } else {
             continue;
         }
         
@@ -30,4 +29,4 @@ int main() {
 
     printf("Number of wins: %d \n", wins);
     return 0 ; 
- }
+}
