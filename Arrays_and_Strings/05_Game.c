@@ -14,13 +14,13 @@ int main() {
     
     float results[] = {0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1};
     //Let's introduce a counter, namely i, and, a variable which stores the results in itself which is z.
-    
-    int z = 0 ;
+    int numGames = sizeof(results);
+    int wins = 0 ;
 
-    for(int i = 0; i<28 ; i++) {
+    for(int i = 0; i< numGames ; i++) {
 
         if (results[i]==1) {
-            z = z+1 ; // or z++ ; 
+            wins++ ;
         }
         else {
             continue;
@@ -28,6 +28,6 @@ int main() {
         
     }
 
-    printf("Number of wins: %d \n", z);
+    printf("Number of wins: %d \n", wins);
     return 0 ; 
  }
