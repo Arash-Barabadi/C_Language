@@ -7,7 +7,7 @@
 */
 
 //For example : ...
-/**
+/** 
 
 struct course
 {
@@ -17,9 +17,8 @@ struct course
 };
 
 * This struct statement defines a new data type named course that has three members. 
-* Structure members can be of any data type, including basic types, strings, arrays, pointers
-* , and even other structures.
-*
+* Structure members can be of any data type, including basic types, strings, arrays, pointers, and even other structures.
+* you use the keyword struct followed by the struct tag(here:course), and then the variable name.
 * A structure is also called a composite or aggregate data type. Some languages refer to structures as records. 
 */
 
